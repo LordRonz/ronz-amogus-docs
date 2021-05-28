@@ -32,7 +32,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--primary button--lg"
-            to="/docs/">
+            to="https://discord.com/api/oauth2/authorize?client_id=820161165480820746&permissions=3862297920&scope=bot">
             Invite
           </Link>
         </div>

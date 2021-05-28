@@ -4,15 +4,15 @@ module.exports = {
   tagline: 'when the impostor is sus 😳',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: 'log',
+  onBrokenMarkdownLinks: 'log',
   favicon: 'img/favicon.ico',
   customFields: {
     users: [],
     version: '1.6.9'
   },
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'LordRonz', // Usually your GitHub org/user name.
+  projectName: 'ronz-amogus', // Usually your repo name.
   themeConfig: {
     colorMode: {
       defaultMode: 'dark'
@@ -21,7 +21,7 @@ module.exports = {
       title: 'ronz-AMOGUS',
       logo: {
         alt: 'amogus',
-        src: 'img/logo.svg',
+        src: 'img/amogusnhentai120.png',
       },
       items: [
         {
@@ -51,23 +51,6 @@ module.exports = {
           ],
         },
         {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
           title: 'More',
           items: [
             {
@@ -91,14 +74,14 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          path: 'docs',
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          path: 'blog',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

@@ -14,33 +14,33 @@ Oh yall horny bastard gonna love this shit
 
 ---
 
-- **`69agw`** - Plays a song with the given name or url.
+- **`69agw`** - Sends pic from r/asiansgonewild
 
   - **Usage**: `69agw`
   - **Alias**: `asiansgonewild`
 
 ---
 
-- **`69gw`** - Stops and disconnects the bot from voice.
+- **`69gw`** - Sends pic from r/gonewild
 
   - **Usage**: `69gw`
   - **Alias**: `gonewild`
 
 ---
 
-- **`69hentai`** - Changes the player's volume.
+- **`69hentai`** - Do you like anime? Yes I do, Hentai too.. - Samuel Jackson
 
   - **Usage**: `69hentai`
 
 ---
 
-- **`69hentaigif`** - Stops and disconnects the bot from voice.
+- **`69hentaigif`** - Moving hentai
 
   - **Usage**: `69hentaigif`
 
 ---
 
-- **`69nhentai`** - Stops and disconnects the bot from voice.
+- **`69nhentai`** - Reads some doujin for you
 
   - **Usage**: `69nhentai`
   - **Other Usage**: `69nhentai <id/magic number>` - Gets the doujin of the specified id
@@ -54,7 +54,7 @@ Oh yall horny bastard gonna love this shit
 
 ---
 
-- **`69sauce`** - BROO
+- **`69sauce`** - Need to know the source of this Now!
 
   - **Usage**: `69sauce <link>`
   - **Other Usage**: `69sauce` - Send an attachment and give it a comment
