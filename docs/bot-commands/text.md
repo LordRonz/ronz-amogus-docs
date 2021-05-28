@@ -4,7 +4,7 @@ slug: /commands/text
 sidebar_position: 6
 ---
 
-Oh yall horny bastard gonna love this shit
+Text commands! Nothing more, nothing less.
 
 ---
 
@@ -20,7 +20,7 @@ Oh yall horny bastard gonna love this shit
 
 ---
 
-- **`69swear`** - bruh
+- **`69swear`** - Random entities do be swearing doe
 
   - **Usage**: `69swear``
 
