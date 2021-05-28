@@ -32,7 +32,7 @@ function HomepageHeader() {
           </Link>
           <Link
             className="button button--primary button--lg"
-            to="https://discord.com/api/oauth2/authorize?client_id=820161165480820746&permissions=3862297920&scope=bot">
+            to="/invite/">
             Invite
           </Link>
         </div>
@@ -46,7 +46,7 @@ export default function Home() {
   return (
     <Layout
       title={`Home`}
-      description="Description will go into a meta tag in <head />">
+      description="when the impostor is sus 😳">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
