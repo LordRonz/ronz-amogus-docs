@@ -5,7 +5,7 @@ import styles from './HomepageFeatures.module.css';
 const FeatureList = [
   {
     title: 'The Best Discord Bot EVER',
-    Svg: require('../../static/img/amogushome192.svg').default,
+    Svg: require('../../static/img/amogushome.min.svg').default,
     description: (
       <>
         Like srsly, it's fucking AMOGUS.
@@ -14,7 +14,7 @@ const FeatureList = [
   },
   {
     title: 'The Best Meme Bot EVER',
-    Svg: require('../../static/img/stonedsnoo192.svg').default,
+    Svg: require('../../static/img/stonedsnoo.min.svg').default,
     description: (
       <>
         Unleash your inner redditor! KEANU CHUNGUS WHOLESOME 100.
@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Designed for Coomer',
-    Svg: require('../../static/img/boobs.svg').default,
+    Svg: require('../../static/img/boobs.min.svg').default,
     description: (
       <>
         The coomer is rejoicing over the bot.
