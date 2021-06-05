@@ -12,6 +12,8 @@ function HomepageHeader() {
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className="container">
         <img
+        width="192"
+        height="192"
         src={"/img/amogusnhentai192.png"}
         style={{
           display: "block",
