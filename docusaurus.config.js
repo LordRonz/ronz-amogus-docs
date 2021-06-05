@@ -2,7 +2,7 @@
 module.exports = {
   title: 'ronz-AMOGUS',
   tagline: 'when the impostor is sus 😳',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ronz-amogus.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'log',
   onBrokenMarkdownLinks: 'log',
