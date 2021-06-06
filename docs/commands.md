@@ -23,4 +23,6 @@ This bot has several awesome cogs or modules:
 
 - **Commands are case insensitive, so you can type `69HeNtAI` and get the same result as `69hentai` or any other combinations of uppercase and lowercase**
 
+- **Each command has a cooldown, so ye can't spam. Cooldown is guild/server level, except for Games Cogs, which is user level**
+
 :::
