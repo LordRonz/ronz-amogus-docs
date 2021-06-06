@@ -12,6 +12,7 @@ Let's see some animal pics to brighten up yer day :)
 
   - **Usage**: `69dog`
   - **Aliases**: `doggo`, `puppy`, `bork`
+  - **Cooldown**: `6.9s`
 
 ---
 
@@ -19,5 +20,6 @@ Let's see some animal pics to brighten up yer day :)
 
   - **Usage**: `69cat`
   - **Aliases**: `pussy`, `kitty`, `meow`
+  - **Cooldown**: `6.9s`
 
 ---
