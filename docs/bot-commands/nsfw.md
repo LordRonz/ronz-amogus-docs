@@ -4,6 +4,13 @@ slug: /commands/nsfw
 sidebar_position: 5
 ---
 
+:::danger Warning
+You need to use this command in a **NSFW** channel!
+(look in channel settings)
+
+![NSFW](https://imgur.com/oe4iK5i.gif)
+:::
+
 Oh yall horny bastard gonna love this shit
 
 ---
