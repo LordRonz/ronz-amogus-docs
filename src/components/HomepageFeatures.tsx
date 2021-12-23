@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'Designed for Coomer',
-    Svg: require('../../static/img/boobs.min.svg').default,
+    Svg: require('../../static/img/flushed.min.svg').default,
     description: (
       <>
         The coomer is rejoicing over the bot.
