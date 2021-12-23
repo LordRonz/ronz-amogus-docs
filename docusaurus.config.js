@@ -32,14 +32,15 @@ module.exports = {
         },
         {to: '/blog', label: 'Blog', position: 'left'},
         {
-          href: "/invite",
-          label: "Invite",
-          position: "left"
+          href: '/invite',
+          label: 'Invite',
+          position: 'left'
         },
         {
           href: 'https://github.com/LordRonz/ronz-amogus/',
           position: 'right',
           className: 'header-github-link',
+          'aria-label': 'GitHub repository',
         },
       ],
     },
