@@ -1,5 +1,6 @@
 import Layout from "@theme/Layout";
 import React from "react";
+import Seo from "../components/Seo";
 
 const InviteLink = (): JSX.Element => {
   React.useEffect(() => {
@@ -12,6 +13,7 @@ const InviteLink = (): JSX.Element => {
 
   return (
     <Layout title="Invite">
+      <Seo templateTitle='Invite' path='/invite/' description="Invite ronz-AMOGUS bot !"/>
       <div
         style={{
           display: 'flex',

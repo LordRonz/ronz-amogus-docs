@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://ronz-amogus.vercel.app/
+
+# Sitemaps
+Sitemap: https://ronz-amogus.vercel.app/sitemap.xml
