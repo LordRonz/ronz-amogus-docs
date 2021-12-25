@@ -5,6 +5,7 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
 import HomepageFeatures from '../components/HomepageFeatures';
+import Seo from '../components/Seo';
 
 function HomepageHeader(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
@@ -50,6 +51,7 @@ export default function Home() {
     <Layout
       title={`Home`}
       description="when the impostor is sus 😳">
+      <Seo templateTitle='Home' path='/' />
       <HomepageHeader />
       <main>
         <HomepageFeatures />
