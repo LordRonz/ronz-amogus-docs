@@ -4,7 +4,6 @@ slug: /commands/music
 sidebar_position: 4
 ---
 
-
 :::info
 
 Sometimes this cogs is disabled due to performance issues
