@@ -9,13 +9,13 @@ module.exports = {
   favicon: 'img/favicon.ico',
   customFields: {
     users: [],
-    version: '1.6.9'
+    version: '1.6.9',
   },
   organizationName: 'LordRonz', // Usually your GitHub org/user name.
   projectName: 'ronz-amogus', // Usually your repo name.
   themeConfig: {
     colorMode: {
-      defaultMode: 'dark'
+      defaultMode: 'dark',
     },
     navbar: {
       title: 'ronz-AMOGUS',
@@ -32,16 +32,17 @@ module.exports = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Blog', position: 'left'},
+        { to: '/blog', label: 'Blog', position: 'left' },
         {
-          href: "/invite",
-          label: "Invite",
-          position: "left"
+          href: '/invite',
+          label: 'Invite',
+          position: 'left',
         },
         {
           href: 'https://github.com/LordRonz/ronz-amogus/',
           position: 'right',
           className: 'header-github-link',
+          'aria-label': 'GitHub Repo',
         },
       ],
     },
