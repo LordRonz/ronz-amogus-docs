@@ -17,6 +17,12 @@ module.exports = {
     colorMode: {
       defaultMode: 'dark',
     },
+    algolia: {
+      apiKey: "4f433af3046372a46dee279ceba42849",
+      indexName: "ronz-amogus-docs",
+      appId: "SD9I4UTUN1",
+      placeholder: "Search"
+    },
     navbar: {
       title: 'ronz-AMOGUS',
       logo: {
