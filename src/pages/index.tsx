@@ -8,7 +8,7 @@ import HomepageFeatures from '../components/HomepageFeatures';
 import Seo from '../components/Seo';
 import styles from './index.module.css';
 
-function HomepageHeader(): JSX.Element {
+const HomepageHeader = (): JSX.Element => {
   const { siteConfig } = useDocusaurusContext();
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
@@ -40,9 +40,9 @@ function HomepageHeader(): JSX.Element {
       </div>
     </header>
   );
-}
+};
 
-export default function Home() {
+const Home = (): JSX.Element => {
   return (
     <Layout title={`Home`} description='when the impostor is sus 😳'>
       <Seo templateTitle='Home' path='/' />
@@ -52,4 +52,6 @@ export default function Home() {
       </main>
     </Layout>
   );
-}
+};
+
+export default Home;

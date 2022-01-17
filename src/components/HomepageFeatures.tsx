@@ -4,7 +4,7 @@ import React from 'react';
 import AmogusHomeSvg from '../../static/img/amogushome.min.svg';
 import FlushedSvg from '../../static/img/flushed.min.svg';
 import StonedSnooSvg from '../../static/img/stonedsnoo.min.svg';
-import styles from './HomepageFeatures.module.css';
+import style from './HomepageFeatures.module.css';
 
 const FeatureList = [
   {
@@ -30,11 +30,11 @@ type FeatureProp = {
   description: JSX.Element;
 };
 
-function Feature({ Svg, title, description }: FeatureProp): JSX.Element {
+const Feature = ({ Svg, title, description }: FeatureProp): JSX.Element => {
   return (
     <div className={clsx('col col--4')}>
       <div className='text--center'>
-        <Svg className={styles.featureSvg} role='img' aria-label={title} />
+        <Svg className={style.featureSvg} role='img' aria-label={title} />
       </div>
       <div className='text--center padding-horiz--md'>
         <h3>{title}</h3>
@@ -42,11 +42,18 @@ function Feature({ Svg, title, description }: FeatureProp): JSX.Element {
       </div>
     </div>
   );
-}
+};
 
-export default function HomepageFeatures(): JSX.Element {
+const HomepageFeatures = (): JSX.Element => {
   return (
-    <section className={styles.features}>
+    <section style={
+      {
+        display: 'flex',
+        alignItems: 'center',
+        padding: '2rem 0',
+        width: '100%',
+      }
+    }>
       <div className='container'>
         <div className='row'>
           {FeatureList.map((props, idx) => (
@@ -56,4 +63,6 @@ export default function HomepageFeatures(): JSX.Element {
       </div>
     </section>
   );
-}
+};
+
+export default HomepageFeatures;
