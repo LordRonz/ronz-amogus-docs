@@ -59,7 +59,7 @@ Dockerfile        text
 # Documentation
 *.ipynb           text
 *.markdown        text
-*.md              text
+*.md              text linguist-detectable
 *.mdwn            text
 *.mdown           text
 *.mkd             text
