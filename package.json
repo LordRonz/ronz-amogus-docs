@@ -45,7 +45,7 @@
   "devDependencies": {
     "@docusaurus/module-type-aliases": "^2.0.0-beta.17",
     "@tsconfig/docusaurus": "^1.0.5",
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.15.0",
     "@typescript-eslint/parser": "^5.15.0",
     "eslint": "^8.11.0",
     "eslint-config-prettier": "^8.5.0",
